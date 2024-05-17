@@ -1,0 +1,24 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g16v8as  Library DLIB-h-40-2
+# Created         Sat Mar 02 19:41:35 2024
+# Name            6303CPLD 
+# Partno          00 
+# Revision        01 
+# Date            3/2/2024 
+# Designer        Engineer 
+# Company         Cal Poly Pomona 
+# Assembly        None 
+# Location        
+#
+# Inputs  A13 A14 A15 Eclk 
+#         RW Rom Romce 
+# Outputs !Rom Romce 
+.i 7
+.o 2
+.p 3
+----1-- 1~
+---1--- 1~
+--0---- ~1
+.end

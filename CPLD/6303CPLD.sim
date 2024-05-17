@@ -1,0 +1,22 @@
+%SIGNAL
+PIN  19 =  A13 
+PIN  18 =  A14 
+PIN  17 =  A15 
+PIN  13 =  Eclk 
+PIN  14 =  RW 
+PIN  12 =  Rom 
+PIN  16 =  Romce 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+Rom =>
+    RW
+  # Eclk
+
+Romce =>
+    !A15
+
+%END

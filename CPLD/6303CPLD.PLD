@@ -1,0 +1,25 @@
+Name     6303CPLD ;
+PartNo   00 ;
+Date     3/2/2024 ;
+Revision 01 ;
+Designer Engineer ;
+Company  Cal Poly Pomona ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN   19  =   A13                      ; /*                                 */ 
+PIN   18  =   A14                      ; /*                                 */ 
+PIN   17  =   A15                      ; /*                                 */ 
+PIN   14  =   RW                      ; /*                                 */ 
+PIN   13  =   Eclk                      ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN   16  =   Romce                      ; /*                                 */ 
+PIN   12  =   Rom                      ; /*                                 */ 
+
+
+Romce = !A15;
+Rom = !(RW # Eclk);
+
